@@ -25,4 +25,5 @@ $ python painting.py train --dataset=dataset --weights=last
 ```
 
 ## Troubleshooting
-If memory is exceeding reduce the number of images al line 66 in painting.py
+- If memory is exceeding reduce the number of images al line 66 in painting.py
+- The model is compatible with tf 1.14 not 2
