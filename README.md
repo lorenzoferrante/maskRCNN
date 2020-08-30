@@ -4,6 +4,10 @@ This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on P
 
 ## Setup for Vast ai
 ```
+$ pip install -r requirements.txt
+```
+If resolver has problems :
+```
 $ pip install -r requirements.txt --use-feature=2020-resolver
 ```
   
