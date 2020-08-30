@@ -23,3 +23,6 @@ https://drive.google.com/file/d/1UEP8uPDlCuFGiWvvyziuEH7akmNfGgZX/view?usp=shari
 $ cd data
 $ python painting.py train --dataset=dataset --weights=last
 ```
+
+## Troubleshooting
+If memory is exceeding reduce the number of images al line 66 in painting.py
