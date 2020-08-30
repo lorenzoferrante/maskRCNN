@@ -6,3 +6,12 @@ This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on P
 ```
 $ pip install -r requirements.txt --use-feature=2020-resolver
 ```
+  
+Put the last weights in the logs directory : painting20200830T0323
+Then you are ready to go
+
+## to train
+```
+$ cd data
+$ python painting.py train --dataset=dataset --weights=last
+```
