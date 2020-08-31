@@ -34,6 +34,14 @@ import datetime
 import numpy as np
 import skimage.draw
 
+# MASK_RCNN
+import logging
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # FATAL
+logging.getLogger('tensorflow').setLevel(logging.FATAL)
+from warnings import simplefilter
+simplefilter(action='ignore', category=FutureWarning)
+
 # Root directory of the project
 ROOT_DIR = os.path.abspath("../")
 
